@@ -55,6 +55,7 @@ A. Using google collab:
     Run all.
     
 B. Using local Environment:
+
     B.1 Install Dependencies
     Dependencies:
     • TensorFlow 1.5.0
@@ -69,11 +70,13 @@ B. Using local Environment:
     Run your code: "python train.py" or "python test.py"
 
 2. How to use GUI?
-  GUI is designed to run evaluate performance of different saved models.
-  Pick your model using select model button.
-  Run evaluate.
-  Check results in space of GUI below.
-  Demo video: 
+
+    GUI is designed to run evaluate performance of different saved models.
+    Pick your model using select model button.
+    Run evaluate.
+    Check results in space of GUI below.
+    Demo video: 
 
 3. Conclusion:
+   
    The given model achieves an accuracy of xx.xx % as compared to random regression accuracy of yy.yy %
