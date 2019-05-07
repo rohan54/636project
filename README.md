@@ -26,8 +26,8 @@ Testing images :    1212
 |dense_2 (Dense)|(None, 1)|513       
 
 
-Total params: 11,554,753
-Trainable params: 11,554,753
+Total params: 11,554,753\
+Trainable params: 11,554,753\
 Non-trainable params: 0
 _________________________________________________________________
 
