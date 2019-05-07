@@ -8,29 +8,22 @@ for training, validation and testing. Pixels: 960 X 720 X 3
 
 ## Link: https://drive.google.com/open?id=1ZarSED1EyZhqZq_dctexsEdDmzJiFGHg
 
-Train images : 5062
+Train images :      5062
 Validation images : 534
-Testing images : 1212
+Testing images :    1212
 
 # Architecture:
 
-Layer (type)                 Output Shape              Param    
-
-conv2d_1 (Conv2D)            (None, 94, 70, 32)        896       
-_________________________________________________________________
-max_pooling2d_1 (MaxPooling2 (None, 47, 35, 32)        0         
-_________________________________________________________________
-dropout_1 (Dropout)          (None, 47, 35, 32)        0         
-_________________________________________________________________
-conv2d_2 (Conv2D)            (None, 45, 33, 64)        18496     
-_________________________________________________________________
-max_pooling2d_2 (MaxPooling2 (None, 22, 16, 64)        0         
-_________________________________________________________________
-flatten_1 (Flatten)          (None, 22528)             0         
-_________________________________________________________________
-dense_1 (Dense)              (None, 512)               11534848  
-_________________________________________________________________
-dense_2 (Dense)              (None, 1)                 513       
+|Layer (type)|Output Shape|Param|
+|------------|------------|-----|
+|conv2d_1 (Conv2D)|(None, 94, 70, 32)|896|
+|max_pooling2d_1 (MaxPooling2|(None, 47, 35, 32)|0|   
+|dropout_1 (Dropout)|(None, 47, 35, 32)|0|    
+|conv2d_2 (Conv2D)|(None, 45, 33, 64)|18496|
+|max_pooling2d_2 (MaxPooling2|(None, 22, 16, 64)|0| 
+|flatten_1 (Flatten)|(None, 22528)|0|
+|dense_1 (Dense)|(None, 512)|11534848|
+|dense_2 (Dense)|(None, 1)|513       
 
 
 Total params: 11,554,753
