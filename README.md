@@ -3,7 +3,7 @@
 Project inspired from DroNet: Learning to fly by driving (https://github.com/uzh-rpg/rpg_public_dronet)
 
 # Dataset:
-Collision dataset collected by Go-Pro camera mounted on bike running on roads
+Collision dataset collected by Go-Pro camera mounted on bike running on roads\
 for training, validation and testing. Pixels: 960 X 720 X 3
 
 ## Link: https://drive.google.com/open?id=1ZarSED1EyZhqZq_dctexsEdDmzJiFGHg
@@ -71,10 +71,10 @@ B. Using local Environment:
 
 2. How to use GUI?
 
-    GUI is designed to run evaluate performance of different saved models.
-    Pick your model using select model button.
-    Run evaluate.
-    Check results in space of GUI below.
+    GUI is designed to run evaluate performance of different saved models.\
+    Pick your model using select model button.\
+    Run evaluate.\
+    Check results in space of GUI below.\
     Demo video: 
 
 3. Conclusion:
