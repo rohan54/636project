@@ -42,7 +42,7 @@ Optimizer:
 2. Adam
 
 Loss:\
-   Binary Cross-Entropy
+&nbsp;&nbsp;&nbsp;Binary Cross-Entropy
 
 # Procedure
 
