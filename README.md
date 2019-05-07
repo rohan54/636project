@@ -8,9 +8,9 @@ for training, validation and testing. Pixels: 960 X 720 X 3
 
 ## Link: https://drive.google.com/open?id=1ZarSED1EyZhqZq_dctexsEdDmzJiFGHg
 
-Train images :      5062
-Validation images : 534
-Testing images :    1212
+Train images :      5062\
+Validation images : 534\
+Testing images :    1212\
 
 # Architecture:
 
