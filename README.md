@@ -31,17 +31,17 @@ Trainable params: 11,554,753\
 Non-trainable params: 0
 _________________________________________________________________
 
-Hyperparameters:
+Hyperparameters:\
 1. starting learning rate of 0.001
 2. exponential per-step decay equal to 10−5
 3. epoch
 4. batch size
 
-Optimizer:
+Optimizer:\
 1. SGD
 2.Adam
 
-Loss:
+Loss:\
 Binary Cross-Entropy
 
 # Procedure
