@@ -52,7 +52,7 @@ A. Using google collab:
 
     Download the colab notebook that you want to run. Upload it in google colab.
     Do "Add to my drive" on the shared folder.
-    Run all.
+    Run all code snippets in notebook.
     
 B. Using local Environment:
 
