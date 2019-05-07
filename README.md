@@ -4,7 +4,7 @@ Project inspired from DroNet: Learning to fly by driving (https://github.com/uzh
 
 # Dataset:
 Collision dataset collected by Go-Pro camera mounted on bike running on roads
-for training, validation and testing. Pixels: 960*720*3
+for training, validation and testing. Pixels: 960 X 720 X 3
 
 ## Link: https://drive.google.com/open?id=1ZarSED1EyZhqZq_dctexsEdDmzJiFGHg
 
@@ -38,8 +38,10 @@ Non-trainable params: 0
 _________________________________________________________________
 
 Hyperparameters:
-1. epoch
-2. batch size
+1. starting learning rate of 0.001
+2. exponential per-step decay equal to 10−5
+3. epoch
+4. batch size
 
 Optimizer:
 1. SGD
@@ -51,5 +53,33 @@ Binary Cross-Entropy
 # Procedure
 
 1. How to run your code for training and testing?
-Download the colab notebook that you want to run. Upload it in google colab.
-Mount the drive and 
+
+A. Using google collab:
+
+    Download the colab notebook that you want to run. Upload it in google colab.
+    Do "Add to my drive" on the shared folder.
+    Run all.
+    
+B. Using local Environment:
+    B.1 Install Dependencies
+    Dependencies:
+    • TensorFlow 1.5.0
+    • Keras 2.1.4 (Make sure that the Keras version is correct!)
+    • NumPy 1.12.1
+    • OpenCV 3.1.0
+    • scikit-learn 0.18.1
+    • Python gflags
+    
+    Upload google colab notebook. Download as python file in menu options.
+    Adjust paths as per downloaded datset
+    Run your code: "python train.py" or "python test.py"
+
+2. How to use GUI?
+  GUI is designed to run evaluate performance of different saved models.
+  Pick your model using select model button.
+  Run evaluate.
+  Check results in space of GUI below.
+  Demo video: 
+
+3. Conclusion:
+   The given model achieves an accuracy of xx.xx % as compared to random regression accuracy of yy.yy %
