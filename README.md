@@ -68,11 +68,15 @@ B. Using local Environment:
     
     Upload google colab notebook in google collab or jupyter. Download as python file in menu options.
     Adjust paths as per downloaded datset
-    Run your code: "python train.py" or "python test.py"
+    Run your code: "python train.py"
+    
+C. Evaluate locally
+   
 
 2. How to use GUI?
 
     GUI is designed to run evaluate performance of different saved models.\
+    Run predict3.py\
     Pick your model using select model button.\
     Run evaluate.\
     Check results in space of GUI below.\
