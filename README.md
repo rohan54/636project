@@ -73,7 +73,7 @@ B. Using local Environment:
     Pick your model using select model button.\
     Run evaluate.\
     Check results in space of GUI below.\
-    Demo video: 
+    Demo video: https://youtu.be/y_NHGTkqMC0
 
 3. Conclusion:
    
