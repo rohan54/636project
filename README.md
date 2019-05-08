@@ -12,6 +12,8 @@ Train images :      5062\
 Validation images : 534\
 Testing images :    1212
 
+dict5000.mat is a dictionary containing all images and their corresponding labels partitioned into train, test and validation.
+
 # Models:
 ## Link: https://drive.google.com/drive/folders/1s90xlw5NuUA2bNLgqcvwKpHnXB1jAgvW?usp=sharing
 
@@ -72,6 +74,7 @@ B. Using local Environment:
     
 C. Evaluate locally
    
+    C.1 Run "python evaluation.py --model ./model.h5 --data ./dict5000.mat"
 
 2. How to use GUI?
 
