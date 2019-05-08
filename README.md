@@ -33,14 +33,12 @@ Non-trainable params: 0
 _________________________________________________________________
 
 Hyperparameters:
-1. starting learning rate of 0.001
-2. exponential per-step decay equal to 10−5
-3. epoch
-4. batch size
+1. learning rate of 0.01
+2. epoch
+3. batch size
 
-Optimizer:
+Optimizer :
 1. SGD
-2. Adam
 
 Loss:\
 &nbsp;&nbsp;&nbsp;Binary Cross-Entropy
@@ -59,14 +57,13 @@ B. Using local Environment:
 
     B.1 Install Dependencies
     Dependencies:
-    • TensorFlow 1.5.0
-    • Keras 2.1.4 (Make sure that the Keras version is correct!)
-    • NumPy 1.12.1
-    • OpenCV 3.1.0
-    • scikit-learn 0.18.1
+    • TensorFlow 1.13.1
+    • Keras 2.2.4 (Make sure that the Keras version is correct!)
+    • NumPy 1.16.3
+    • scikit-learn 0.20.3
     • Python gflags
     
-    Upload google colab notebook. Download as python file in menu options.
+    Upload google colab notebook in google collab or jupyter. Download as python file in menu options.
     Adjust paths as per downloaded datset
     Run your code: "python train.py" or "python test.py"
 
