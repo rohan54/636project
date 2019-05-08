@@ -16,18 +16,19 @@ Testing images :    1212
 
 |Layer (type)|Output Shape|Param|
 |------------|------------|-----|
-|conv2d_1 (Conv2D)|(None, 94, 70, 32)|896|
-|max_pooling2d_1 (MaxPooling2|(None, 47, 35, 32)|0|   
-|dropout_1 (Dropout)|(None, 47, 35, 32)|0|    
-|conv2d_2 (Conv2D)|(None, 45, 33, 64)|18496|
-|max_pooling2d_2 (MaxPooling2|(None, 22, 16, 64)|0| 
-|flatten_1 (Flatten)|(None, 22528)|0|
-|dense_1 (Dense)|(None, 512)|11534848|
-|dense_2 (Dense)|(None, 1)|513       
+|vgg16 (Model)|(None, 3, 2, 512)|14714688|
+|conv2d_1 (Conv2D)|(None, 3, 2, 32)|147488|
+|max_pooling2d_2 (MaxPooling2|(None, 2, 1, 32)|0|
+|dropout_1 (Dropout)|(None, 2, 1, 32)|0|         
+|conv2d_2 (Conv2D)|(None, 2, 1, 64)|18496|
+|max_pooling2d_3 (MaxPooling2|(None, 1, 1, 64)|0|    
+|flatten_1 (Flatten)|(None, 64)|0|
+|dense_1 (Dense)|(None, 512)|33280|
+|dense_2 (Dense)|(None, 1)|513|   
 
 
-Total params: 11,554,753\
-Trainable params: 11,554,753\
+Total params: 14,914,465\
+Trainable params: 14,914,465\
 Non-trainable params: 0
 _________________________________________________________________
 
