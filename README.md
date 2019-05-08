@@ -12,6 +12,9 @@ Train images :      5062\
 Validation images : 534\
 Testing images :    1212
 
+# Models:
+## Link: https://drive.google.com/drive/folders/1s90xlw5NuUA2bNLgqcvwKpHnXB1jAgvW?usp=sharing
+
 # Architecture:
 
 |Layer (type)|Output Shape|Param|
