@@ -77,4 +77,4 @@ B. Using local Environment:
 
 3. Conclusion:
    
-   The given model achieves an accuracy of xx.xx % as compared to random regression accuracy of yy.yy %
+   The given model achieves an accuracy of 94.55 % as compared to random claasification accuracy of 53.62 % mentioned in paper
